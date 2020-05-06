@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAGED.View.IntroCourse.LessonOneModalView">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="10 ">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.ColumnSpan="2"  LineBreakMode="WordWrap" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="15, 0, 15, 20 ">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource standardTxt}" Text="{Binding IntroParaOne}"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <BoxView Grid.Row="1" Grid.ColumnSpan="2" BackgroundColor="LightGray" HeightRequest="2" HorizontalOptions="Fill" Margin="40,15,40,20"/>
+
+                <Image Source="{Binding SetImageOne}" Grid.Row="2" Grid.ColumnSpan="2" HeightRequest="200"/>
+
+                <Picker Grid.Row="3" ItemsSource="{Binding Frets}" SelectedItem="{Binding SelectedFretOne}" Grid.Column="0" Title="Select First Fret" Margin="0,10,0,0"/>
+                <Picker Grid.Row="3" ItemsSource="{Binding Frets}" SelectedItem="{Binding SelectedFretTwo}" Grid.Column="1" Title="Select Second Fret" Margin="0,10,0,0"/>
+
+                <Button  Grid.Row="4" Grid.ColumnSpan="2" Text="{Binding SubmitBtnText}" Style="{StaticResource answerBtn}" IsVisible="{Binding SubmitBtnVisible}" Command="{Binding SubmitBtnCommand}"/>
+                <Button  Grid.Row="4" Grid.ColumnSpan="2" Text="{Binding ProceedBtnText}" Style="{StaticResource proceedBtn}" IsVisible="{Binding ProceedBtnVisible}" Command="{Binding ProceedBtnCommand}"/>
+            </Grid>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

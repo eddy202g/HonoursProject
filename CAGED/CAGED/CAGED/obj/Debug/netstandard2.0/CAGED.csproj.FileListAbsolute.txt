@@ -1,0 +1,130 @@
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.deps.json
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\AchievementsPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\ContentViews\IntroView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CoursesPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\Modal1.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\Modal2.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\ProfilePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csproj.CoreCompileInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfoInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfo.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csprojAssemblyReference.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\ContentViews\IntroView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\Modal1.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\Modal2.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\AchievementsPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\CoursesPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\ProfilePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csproj.CoreCompileInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfoInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfo.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.deps.json
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImplementation - Copy\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.deps.json
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csprojAssemblyReference.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\AchievementsPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\CoursesPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Modal1.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\ProfilePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csproj.CoreCompileInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfoInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVM\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfo.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.deps.json
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csprojAssemblyReference.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\ViewModel\Main\App.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\IntroOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonFiveView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonFourView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonThreeView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonTwoView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\Modal1.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Login\MainPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Login\RegisterView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\AchievementsPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\CoursesPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\HomePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\ProfilePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csproj.CoreCompileInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfoInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfo.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonOneModalView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonTwoModalView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CagedMVVVMLocalDb\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.deps.json
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csprojAssemblyReference.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\ViewModel\Main\App.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\IntroOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonFiveView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonFourView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonOneModalView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonThreeView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonTwoModalView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonTwoView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\Modal1.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Login\MainPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Login\RegisterView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\AchievementsPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\CoursesPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\HomePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\ProfilePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csproj.CoreCompileInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfoInputs.cache
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfo.cs
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\DissertationStuff\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.deps.json
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\bin\Debug\netstandard2.0\CAGED.pdb
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csprojAssemblyReference.cache
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\ViewModel\Main\App.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\IntroAssessment.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\IntroOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonFiveView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonFourView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonOneModalView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonOneView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonThreeView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonTwoModalView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\LessonTwoView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\IntroCourse\Modal1.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Login\MainPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Login\RegisterView.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\AchievementsPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\CoursesPage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\HomePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\View\Main\ProfilePage.xaml.g.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.csproj.CoreCompileInputs.cache
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfoInputs.cache
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.AssemblyInfo.cs
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.dll
+C:\Users\edmor\Desktop\4thYear\FinalDissertation\CAGEDImpV4\CAGED\CAGED\CAGED\obj\Debug\netstandard2.0\CAGED.pdb

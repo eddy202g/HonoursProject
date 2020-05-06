@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAGED.Model.CourseModel">
+    <Position X="7" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAIAAAAAQACAAAEAFAAAAAAARAABAAAAAIAAA=</HashCode>
+      <FileName>Model\CourseModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAGED.Model.LessonModel">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAACAAAAAAAIAAABAAABAABAAAAAAAAAAA=</HashCode>
+      <FileName>Model\LessonModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAGED.Model.RegisterModel">
+    <Position X="10.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABAAAAAIAAAAAEAQAAAAEAKgACAAAiAAAAAAAAAAE=</HashCode>
+      <FileName>Model\RegisterModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

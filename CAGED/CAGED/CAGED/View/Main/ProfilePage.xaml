@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:system="clr-namespace:System;assembly=netstandard"
+             
+             x:Class="CAGED.ProfilePage">
+    <!--StackLayout>
+        <StackLayout>
+            <Label x:Name="ParaOneLabel"  Text="" />
+        </StackLayout>
+        <BoxView Style="{StaticResource divider}"/>
+        <StackLayout>
+            <Label x:Name="ParaTwoLabel"  Text="" />
+        </StackLayout>
+
+    </StackLayout>-
+    <StackLayout>
+    <StackLayout>
+        <Label x:Name="details"/>
+    </StackLayout>
+    <StackLayout>
+    <ListView x:Name="saved_properties_list">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                         
+                        <StackLayout Orientation="Horizontal" 
+                        HorizontalOptions="FillAndExpand"
+                        Margin="20, 10, 20, 0" >
+                                <Label Text="{Binding LessonOneProgress}" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding LessonTwoProgress}" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding LessonThreeProgress}" HorizontalOptions="StartAndExpand" />
+
+                                <Label Text="{Binding LessonFourProgress}" HorizontalOptions="StartAndExpand" />
+                                <Label Text="{Binding LessonFiveProgress}" HorizontalOptions="StartAndExpand" />
+
+                                <Label Text="{Binding Value}" />
+                        </StackLayout>
+                           
+
+                        </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+</StackLayout>-->
+
+
+
+        <!-- 2. Contact informaqtion frame-->
+        <!--<StackLayout Grid.Row="0" BackgroundColor="White" VerticalOptions="End">-->
+    <Frame CornerRadius="40" Style="{StaticResource stlMainFrame}">
+                <!-- Blocks: 3 and 4 -->
+                <Grid Padding="25,10,25,0" RowSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+                <!-- 4. Contact information-->
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Text="{Binding SetNickname}" FontAttributes="Bold" FontSize="30"/>
+                    <Label Grid.Row="1" Grid.Column="0" Text="" TextColor="#a5a2a2" FontSize="16"/>
+            <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Padding="0,10,0,0" FontSize="16">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text=" " FontAttributes="Bold" />
+                        <Span Text=" "  />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <!--4. Contact information: Board inforation-->
+                    <Label Grid.Row="3" Grid.Column="0" Text="Intro Course: " Style="{StaticResource stlBoardTitle}" />
+                    <Label Grid.Row="3" Grid.Column="1" Text="Incomplete" Style="{StaticResource stlBoardDesc}"/>
+
+                    <Label Grid.Row="4" Grid.Column="0" Text="Intro One: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="4" Grid.Column="1" Text="{Binding SetIntroOneProgress}" Style="{StaticResource stlBoardDesc}"/>
+                    <Label Grid.Row="5" Grid.Column="0" Text="Lesson One: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="5" Grid.Column="1" Text="{Binding SetLessonOneProgress}" Style="{StaticResource stlBoardDesc}"/>
+                    <Label Grid.Row="6" Grid.Column="0" Text="Lesson Two: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="6" Grid.Column="1" Text="{Binding SetLessonTwoProgress}" Style="{StaticResource stlBoardDesc}"/>
+                    <Label Grid.Row="7" Grid.Column="0" Text="Lesson Three: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="7" Grid.Column="1" Text="{Binding SetLessonThreeProgress}" Style="{StaticResource stlBoardDesc}"/>
+                    <Label Grid.Row="8" Grid.Column="0" Text="Lesson Four: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="8" Grid.Column="1" Text="{Binding SetLessonFourProgress}" Style="{StaticResource stlBoardDesc}"/>
+                    <Label Grid.Row="9" Grid.Column="0" Text="Lesson Five: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="9" Grid.Column="1" Text="{Binding SetLessonFiveProgress}" Style="{StaticResource stlBoardDesc}"/>
+                    <Label Grid.Row="10" Grid.Column="0" Text="Assessment: " Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="10" Grid.Column="1" Text="{Binding SetAssessmentProgress}" Style="{StaticResource stlBoardDesc}"/>
+
+            <!--<Label Grid.Row="3" Grid.Column="2" Text="Followers" Style="{StaticResource stlBoardTitle}"/>
+                    <Label Grid.Row="4" Grid.Column="2" Text="67k" Style="{StaticResource stlBoardDesc}"/>-->
+                    <!--4. Contact information: Follow button-->
+            <Button Text="Clear Progress" Margin="25,30,25,0" Grid.Row="10"  Grid.ColumnSpan="2" Style="{StaticResource proceedBtn}" IsVisible="True" Command="{Binding ClearBtnCommand}"/>
+        </Grid>
+            </Frame>
+        
+
+
+
+</ContentPage>

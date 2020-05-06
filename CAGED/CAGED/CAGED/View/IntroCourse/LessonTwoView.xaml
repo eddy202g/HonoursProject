@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+             x:Class="CAGED.View.IntroCourse.LessonTwoView" 
+             NavigationPage.HasBackButton="False"
+             Title="        LESSON TWO">
+
+    <ContentPage.Content>
+        <StackLayout x:Name="IntroPage" HorizontalOptions="Center" VerticalOptions="Center" >
+            <progressBar:SfLinearProgressBar ProgressColor="OrangeRed"  Margin="25,0,25,25"  Progress="{Binding ProgressBar}" TrackHeight="10" CornerRadius="10"/>
+
+            <!-- /////////////////////////////////////////////////
+            ///////////// Page 1 of the content view /////////////
+            ////////////////////////////////////////////////// -->
+            <StackLayout x:Name="part1" IsVisible="{Binding Part1Visible}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Row 2 of the grid-->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenOneparaOne}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 3 of the grid-->
+                    <BoxView Style="{StaticResource divider}"/>
+
+                    <!--Row 4 of the grid-->
+                    <Label Grid.Row="2" Grid.ColumnSpan="2"  Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenOneparaTwo}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 5 of the grid-->
+                    <Button Text="{Binding Part1CompleteBtnText}" Style="{StaticResource proceedBtn}" IsVisible="True" Command="{Binding Part1CompleteBtnCommand}" />
+                </Grid>
+            </StackLayout>
+
+            <!-- /////////////////////////////////////////////////
+            ///////////// Page 2 of the content view /////////////
+            ////////////////////////////////////////////////// -->
+            <StackLayout x:Name="part2" IsVisible="{Binding Part2Visible}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Row 2 of the grid-->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenTwoparaOne}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 3 of the grid-->
+                    <BoxView Style="{StaticResource divider}"/>
+
+                    <!--Row 4 of the grid-->
+                    <Label Grid.Row="2" Grid.ColumnSpan="2"  Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenTwoparaTwo}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 5 of the grid-->
+                    <Button Text="{Binding Part2CompleteBtnText}" Style="{StaticResource proceedBtn}" IsVisible="True" Command="{Binding Part2CompleteBtnCommand}" />
+                </Grid>
+            </StackLayout>
+
+            <!-- /////////////////////////////////////////////////
+            ///////////// Page 3 of the content view /////////////
+            ////////////////////////////////////////////////// -->
+            <StackLayout x:Name="part3" IsVisible="{Binding Part3Visible}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Row 2 of the grid-->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenThreeparaOne}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 3 of the grid-->
+                    <BoxView Style="{StaticResource divider}"/>
+
+                    <!--Row 4 of the grid-->
+                    <!--<Label Grid.Row="2" Grid.ColumnSpan="2"  Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenThreeparaTwo}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>-->
+                    <Image Source="{Binding SetImageOne}" Grid.Row="2" Grid.ColumnSpan="2" HeightRequest="200"/>
+
+                    <!--Row 5 of the grid-->
+                    <Button Text="{Binding Part3CompleteBtnText}" Style="{StaticResource proceedBtn}" IsVisible="True" Command="{Binding Part3CompleteBtnCommand}" />
+                </Grid>
+            </StackLayout>
+
+
+
+
+
+
+
+            <!-- /////////////////////////////////////////////////
+            ///////////// Page 4 of the content view /////////////
+            ////////////////////////////////////////////////// -->
+            <StackLayout x:Name="part4" IsVisible="{Binding Part4Visible}">
+
+                <Grid>
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Row 2 of the grid-->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2"  Margin="25,5,25,0" Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenFourparaOne}"/>
+
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 3 of the grid-->
+                    <BoxView Style="{StaticResource divider}"/>
+
+                    <!--Row 4 of the grid-->
+                    <Label Grid.Row="2" Grid.ColumnSpan="2"  Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenFourparaTwo}"/>
+
+                                <Span FontAttributes="Bold" TextColor="DarkRed" TextDecorations="Underline" Text="{Binding ScreenFourUserInput, Mode=TwoWay}" FontSize="Medium"/>
+                                <Span Style="{StaticResource standardTxt}" Text ="{Binding ScreenFourparaTwoPartTwo}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 5 of the grid-->
+                    <Button x:Name="correct" Grid.Row="3" Grid.Column="0" Text="{Binding CorrectAnswerBtnText}" Style="{StaticResource answerBtn}" IsVisible="{Binding CorrectAnswerBtnVisible}" Command="{Binding CorrectAnswerBtnCommand}" />
+                    <Button x:Name="incorrect" Grid.Row="3" Grid.Column="1" Text="{Binding WrongAnswerBtnText}" Style="{StaticResource answerBtn}" IsVisible="{Binding WrongAnwserBtnVisible}" Command="{Binding WrongAnswerBtnCommand}"/>
+                    <Button x:Name="proceed" Text="{Binding ProceedBtnText}" Style="{StaticResource proceedBtn}" IsVisible="{Binding ProceedBtnVisible}" Command="{Binding ProceedBtnCommand}" />
+                </Grid>
+            </StackLayout>
+            <!-- /////////////////////////////////////////////////
+            ///////////// Page 5 of the content view /////////////
+            ////////////////////////////////////////////////// -->
+            <StackLayout x:Name="part5" IsVisible="{Binding Part5Visible}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Row 2 of the grid-->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenFiveparaOne}"/>
+
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 3 of the grid-->
+                    <BoxView Style="{StaticResource divider}"/>
+
+                    <!--Row 4 of the grid-->
+                    <Label Grid.Row="2" Grid.ColumnSpan="2"  Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource boldTxt}" Text="{Binding ScreenFiveparaTwo}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 5 of the grid-->
+                    <Button x:Name="test" Text="{Binding TakeTestBtnText}" Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource answerBtn}" Command="{Binding TakeTestBtnCommand}"/>
+                </Grid>
+            </StackLayout>
+
+            <!-- /////////////////////////////////////////////////
+            ///////////// Page 6 of the content view /////////////
+            ////////////////////////////////////////////////// -->
+            <StackLayout x:Name="part6" IsVisible="{Binding Part6Visible}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="15*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <!--Row 2 of the grid-->
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenSixparaOne}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 3 of the grid-->
+                    <BoxView Style="{StaticResource divider}"/>
+
+                    <!--Row 4 of the grid-->
+                    <Label Grid.Row="2" Grid.ColumnSpan="2"  Style="{StaticResource headerLbl}">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Style="{StaticResource standardTxt}" Text="{Binding ScreenSixparaTwo}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <!--Row 5 of the grid-->
+                    <Button x:Name="complete" IsVisible="True" Grid.Row="3" Grid.ColumnSpan="2" Text="{Binding LessonCompleteBtnText}" Style="{StaticResource proceedBtn}" Command="{Binding LessonCompleteBtnCommand}" />
+                </Grid>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

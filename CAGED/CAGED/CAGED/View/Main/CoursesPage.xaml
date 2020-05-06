@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:sfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
+             xmlns:textinput="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             NavigationPage.HasBackButton="False"
+             Title="        Select a Course"
+             x:Class="CAGED.CoursesPage">
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout"
+                     Command="{Binding LogoutBtnCommand}"/>
+    </ContentPage.ToolbarItems>-->
+    
+    
+    <ScrollView BackgroundColor="Transparent">
+        <StackLayout x:Name="DynamicPageView" Margin="15">
+            
+            <!--#region Course Card One-->
+            <Frame x:Name="courseOneFrame" BorderColor="Orange"
+                   BackgroundColor="GhostWhite"
+                    CornerRadius="10"
+                    HasShadow="True"
+                   HeightRequest="300"
+                   Margin="2,5,2,5">
+                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="0" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition  Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        
+                        <Image Source="{Binding CardOneImage}" Grid.Row="0" Grid.Column="0"/>
+                        <Label Grid.Row="0" Grid.Column="1" LineBreakMode="WordWrap" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center" >
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span x:Name="introHeader1" Text="{Binding IntroHeader1}" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                                    <!--<Span x:Name="percentageProg" Text="{Binding Progress}" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>-->
+                                    <!--<Span x:Name="header2" Text="{Binding Header2}" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>-->
+
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label Grid.Row="2" Grid.ColumnSpan="2" LineBreakMode="WordWrap" Margin="10,0,0,10">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{Binding IntroBlurb}"  FontSize="Small"  TextColor="Black"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <!--<BoxView Color="LightGray" HeightRequest="2" Grid.Row="1" Grid.ColumnSpan="2" HorizontalOptions="Fill" Margin="6"/>-->
+                        <progressBar:SfLinearProgressBar Progress="{Binding ProgressBar}" Grid.Row="1" Grid.ColumnSpan="2" HeightRequest="2" HorizontalOptions="Fill" Margin="6"/>
+
+                        <ScrollView BackgroundColor="Transparent" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal">
+                            <StackLayout Margin="5"  Orientation="Horizontal" HeightRequest="220">
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="Intro" 
+                                    Text="{Binding IntroBtn}"
+                                    Command="{Binding IntroLessonBtnCommand}"
+                                    TextColor="Black"
+                                    FontAttributes="Bold"                  
+                                    BackgroundColor="Accent"
+                                    CornerRadius="0,10,10,10"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    HasShadow="True"
+                                    BorderWidth="3"
+                                    BorderColor="Black"/>
+                                </StackLayout>
+                                <!--Clicked="Intro_Clicked"-->
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5">
+                                    <buttons:SfButton  x:Name="courseOne"  
+                                    Text="{Binding LessonOneBtn}"
+                                    Command="{Binding IntroLessonOneCommand}"
+                                    TextColor="Black"
+                                    FontAttributes="Bold"                   
+                                    BackgroundColor="Aqua"
+                                    CornerRadius="0,10,10,10"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    ShowIcon="true"     
+                                    HasShadow="True"
+                                    ImageSource="{Binding SetPadlockOne}"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="courseTwo" 
+                                    Text="{Binding LessonTwoBtn}"
+                                    Command="{Binding IntroLessonTwoCommand}"
+                                    TextColor="Black"
+                                    FontAttributes="Bold"                 
+                                    BackgroundColor="#54c1e5"
+                                    CornerRadius="0,10,10,10"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    ShowIcon="true"     
+                                    HasShadow="True"
+                                    ImageSource="{Binding SetPadlockTwo}"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="courseThree"
+                                    Text="{Binding LessonThreeBtn}"
+                                    Command="{Binding IntroLessonThreeCommand}"
+                                    TextColor="Black"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="#bfeb80"
+                                    CornerRadius="0,10,10,10"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"
+                                    ImageSource="{Binding SetPadlockThree}"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="courseFour" 
+                                    Text="{Binding LessonFourBtn}"
+                                    Command="{Binding IntroLessonFourCommand}"
+                                    TextColor="Black"
+                                    FontAttributes="Bold"
+                                    BackgroundColor="PaleVioletRed"
+                                    CornerRadius="0,10,10,10"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"
+                                    ImageSource="{Binding SetPadlockFour}"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="courseFive" 
+                                    Text="{Binding LessonFiveBtn}"
+                                    Command="{Binding IntroLessonFiveCommand}"
+                                    TextColor="Black"
+                                    BackgroundColor="DodgerBlue"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"
+                                    ImageSource="{Binding SetPadlockFive}"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton
+                                    Text="Assessment"
+                                    Command="{Binding IntroAssessmentCommand}"
+                                    TextColor="Black"
+                                    BackgroundColor="Gainsboro"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"
+                                    ImageSource="{Binding SetPadlockSix}"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ScrollView>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+            <!--#endregion-->
+
+            <!--#region Course Card Two-->
+            <Frame x:Name="courseTwoFrame" BorderColor="Gray"
+                       BackgroundColor="GhostWhite"
+                    CornerRadius="10"
+                    HasShadow="True"
+                   HeightRequest="300"
+                   Margin="2,5,2,5"
+                   IsVisible="{Binding SetNewCourseVisible}">
+                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="0"  >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition  Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="{Binding CardTwoImage}" Grid.Row="0" Grid.Column="0"/>
+                        <Label Grid.Row="0" Grid.Column="1" LineBreakMode="WordWrap" HorizontalTextAlignment="Start"  VerticalTextAlignment="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span x:Name="CourseOneH1"  Text="{Binding CourseOneHeader1}" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                                    <!--<Span x:Name="percentageProg1"  Text="{Binding Progress}" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>
+                                    <Span x:Name="CourseOneH2" Text="{Binding Header2}" FontAttributes="Bold" FontSize="Large" TextColor="Black"/>-->
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <Label Grid.Row="2" Grid.ColumnSpan="2" LineBreakMode="WordWrap" Margin="10,0,0,10">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{Binding CourseOneBlurb}"  FontSize="Small"  TextColor="Black"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+
+                        <progressBar:SfLinearProgressBar Progress="{Binding ProgressBar}" Grid.Row="1" Grid.ColumnSpan="2" HeightRequest="2" HorizontalOptions="Fill" Margin="6"/>
+
+                        <ScrollView BackgroundColor="Transparent" Grid.Row="3" Grid.ColumnSpan="2" Orientation="Horizontal">
+                            <StackLayout Margin="5"  Orientation="Horizontal" HeightRequest="220">
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="Course1Intro" 
+                                        Text="{Binding COneIntroBtn}"
+                                        TextColor="Black"
+                                    BackgroundColor="DodgerBlue"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5">
+                                    <buttons:SfButton x:Name="oneLesson1"  
+                                    Text="{Binding COneLessonOneBtn}"
+                                    TextColor="Black"
+                                    BackgroundColor="PaleVioletRed"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="OneLesson2" 
+                                    Text="{Binding COneLessonTwoBtn}"
+                                    TextColor="Black"
+                                    BackgroundColor="#bfeb80"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="OneLesson3"
+                                    Text="{Binding COneLessonThreeBtn}"
+                                    TextColor="Black"
+                                    BackgroundColor="#54c1e5"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="OneLesson4" 
+                                    Text="{Binding COneLessonFourBtn}"
+                                    TextColor="Black"
+                                    BackgroundColor="Aqua"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"/>
+                                </StackLayout>
+                                <StackLayout HeightRequest="220" BackgroundColor="Transparent" Margin="1,0,0,5" >
+                                    <buttons:SfButton x:Name="OneLesson5" 
+                                    Text="{Binding COneLessonFiveBtn}"
+                                    TextColor="Black"
+                                    BackgroundColor="Accent"
+                                    CornerRadius="0,10,10,10"
+                                    FontAttributes="Bold"
+                                    BorderWidth="3"
+                                    BorderColor="Black"
+                                    HeightRequest="150"
+                                    WidthRequest="200"
+                                    ShowIcon="true"     
+                                    HasShadow="True"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ScrollView>
+                    </Grid>
+                </StackLayout>
+
+            </Frame>
+            <!--#endregion-->
+
+            <!--#region Course Detail Popup-->
+            
+                <sfPopup:SfPopupLayout IsOpen="{Binding DisplayPopup}">
+                    <sfPopup:SfPopupLayout.PopupView>
+                        <sfPopup:PopupView HorizontalOptions="FillAndExpand"  
+                                        AppearanceMode="OneButton"
+                                           AcceptButtonText="Save"
+                                           AcceptCommand="{Binding PopupAcceptCommand}"
+                                        VerticalOptions="FillAndExpand"
+                                        HeaderTitle="Modal Window"
+                                        ShowFooter="true"
+                                        AnimationMode="Fade">
+                            <sfPopup:PopupView.ContentTemplate>
+                                <DataTemplate>
+                                <ScrollView BackgroundColor="Transparent">
+                                    <Grid BackgroundColor="White" Padding="15,20,15,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+
+                                            <RowDefinition>
+                                                <RowDefinition.Height>
+                                                    <OnPlatform x:TypeArguments="GridLength" Android="55" iOS="55">
+                                                        <On Platform="UWP" Value="75"/>
+                                                    </OnPlatform>
+                                                </RowDefinition.Height>
+                                            </RowDefinition>
+                                        </Grid.RowDefinitions>
+
+
+                                        <Grid Grid.Row="0" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout 
+                                                FocusedColor="#00AFA0" 
+                                                HelperText="Enter Course Title" 
+                                                ContainerType="Outlined" 
+                                                BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding CourseOneHeader1}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="1" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Course Blurb"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" x:Name="Blurb"  Text="{Binding CourseOneBlurb}"  BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="2" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Intro Lesson Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneIntroBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="3" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Lesson One Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonOneBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="4" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Lesson Two Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonTwoBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="5" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Lesson Three Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonThreeBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="6" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Lesson Four Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonFourBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="7" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" HelperText="Enter Lesson Five Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonFiveBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <!--<Label Grid.Row="4" Text="To" Margin="0,10,0,0"/>
+                                    <Grid Grid.Row="5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <DatePicker Grid.Column="0" FontSize="Small"/>
+                                        <TimePicker Grid.Column="1" FontSize="Small"/>
+                                    </Grid>
+                                    <Grid Grid.Row="6" Margin="0,35,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Switch Grid.Column="0"/>
+                                        <Label Grid.Column="1" Text="All-day">
+                                            <Label.Margin>
+                                                <OnPlatform x:TypeArguments="Thickness">
+                                                    <On Platform="UWP" Value="0,10,0,0"/>
+                                                </OnPlatform>
+                                            </Label.Margin>
+                                        </Label>
+                                    </Grid>-->
+                                    </Grid>
+            </ScrollView>
+            </DataTemplate>
+                            </sfPopup:PopupView.ContentTemplate>
+                        </sfPopup:PopupView>
+                    </sfPopup:SfPopupLayout.PopupView>
+                </sfPopup:SfPopupLayout>
+            
+            <!--#endregion-->
+
+            <!--#region Course Detail Update Popup-->
+
+            <sfPopup:SfPopupLayout IsOpen="{Binding DisplayPopupTwo}">
+                <sfPopup:SfPopupLayout.PopupView>
+                    <sfPopup:PopupView HorizontalOptions="FillAndExpand"  
+                                        AppearanceMode="OneButton"
+                                           AcceptButtonText="Save"
+                                           AcceptCommand="{Binding PopupUpdateCommand}"
+                                        VerticalOptions="FillAndExpand"
+                                        HeaderTitle="Update Course"
+                                        ShowFooter="true"
+                                        AnimationMode="Fade">
+                        <sfPopup:PopupView.ContentTemplate>
+                            <DataTemplate>
+                                <ScrollView BackgroundColor="Transparent">
+                                    <Grid BackgroundColor="White" Padding="15,20,15,0">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+                                            <RowDefinition Height="100"/>
+
+                                            <RowDefinition>
+                                                <RowDefinition.Height>
+                                                    <OnPlatform x:TypeArguments="GridLength" Android="55" iOS="55">
+                                                        <On Platform="UWP" Value="75"/>
+                                                    </OnPlatform>
+                                                </RowDefinition.Height>
+                                            </RowDefinition>
+                                        </Grid.RowDefinitions>
+
+
+                                        <Grid Grid.Row="0" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout 
+                                                FocusedColor="#00AFA0" 
+                                                Hint="Enter Course Title" 
+                                                ContainerType="Outlined" 
+                                                BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding CourseOneHeader1}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="1" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Course Blurb"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" x:Name="Blurb"  Text="{Binding CourseOneBlurb}"  BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="2" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Intro Lesson Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneIntroBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="3" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Lesson One Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonOneBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="4" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Lesson Two Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonTwoBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="5" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Lesson Three Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonThreeBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="6" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Lesson Four Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonFourBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <Grid Grid.Row="7" BackgroundColor="Transparent" Margin="0,15,0,0">
+                                            <textinput:SfTextInputLayout FocusedColor="#00AFA0" Hint="Enter Lesson Five Title"  ContainerType="Outlined" BackgroundColor="Transparent">
+                                                <Entry HeightRequest="75" Text="{Binding COneLessonFiveBtn}" BackgroundColor="Transparent"/>
+                                            </textinput:SfTextInputLayout>
+                                        </Grid>
+
+                                        <!--<Label Grid.Row="4" Text="To" Margin="0,10,0,0"/>
+                                    <Grid Grid.Row="5">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <DatePicker Grid.Column="0" FontSize="Small"/>
+                                        <TimePicker Grid.Column="1" FontSize="Small"/>
+                                    </Grid>
+                                    <Grid Grid.Row="6" Margin="0,35,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto"/>
+                                            <ColumnDefinition Width="Auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Switch Grid.Column="0"/>
+                                        <Label Grid.Column="1" Text="All-day">
+                                            <Label.Margin>
+                                                <OnPlatform x:TypeArguments="Thickness">
+                                                    <On Platform="UWP" Value="0,10,0,0"/>
+                                                </OnPlatform>
+                                            </Label.Margin>
+                                        </Label>
+                                    </Grid>-->
+                                    </Grid>
+                                </ScrollView>
+                            </DataTemplate>
+                        </sfPopup:PopupView.ContentTemplate>
+                    </sfPopup:PopupView>
+                </sfPopup:SfPopupLayout.PopupView>
+            </sfPopup:SfPopupLayout>
+
+            <!--#endregion-->
+
+
+
+            <!--#region Intro Objective Popup-->
+            <sfPopup:SfPopupLayout IsOpen="{Binding DisplayIntroPopup}">
+                <sfPopup:SfPopupLayout.PopupView>
+                    <sfPopup:PopupView HeightRequest="400"
+                                       HeaderTitle="Objective"
+                                       AcceptButtonText="Continue"
+                                       AcceptCommand="{Binding PopupIntroCommand}"
+                                       ShowFooter="true">
+                        <sfPopup:PopupView.PopupStyle>
+                            <sfPopup:PopupStyle HeaderBackgroundColor="#00AFA0"
+                                    HeaderFontAttribute="Bold"
+                                    HeaderFontFamily="Helvetica-Bold"
+                                    HeaderFontSize="25"
+                                    HeaderTextAlignment="Start"
+                                    HeaderTextColor="White"/>
+                        </sfPopup:PopupView.PopupStyle>
+                        <sfPopup:PopupView.ContentTemplate>
+                            <DataTemplate>
+                                <StackLayout Margin="50">
+                                    <Label Text="               "/>
+                                    <Label Text="Learning Objective: " FontSize="Large" TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="               "/>
+                                    <Label Text="               "/>
+                                    <Label Text=" - Get to know the lesson layouts, and   how you will be taught  " FontSize="Medium" TextColor="Black"  />
+                                   
+                                    <!--\n\n - Get an idea of course content\n - Talk about the CAGED system\n - Try a simple assessment" 
+                                           WidthRequest="260"
+                                           BackgroundColor="White"
+                                           HorizontalOptions="CenterAndExpand"/>-->
+                                </StackLayout>
+                            </DataTemplate>
+                        </sfPopup:PopupView.ContentTemplate>
+                        
+                    </sfPopup:PopupView>
+                </sfPopup:SfPopupLayout.PopupView>
+            </sfPopup:SfPopupLayout>
+            <!--#endregion-->
+            
+            <!--#region Button to display course details popup-->
+            <StackLayout x:Name="layout" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="{Binding SetSLVisible}">
+                <Button Text="+" TextColor="Gray" FontSize="Header" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="GhostWhite" BorderColor="GhostWhite" Command="{Binding SetNewCourseCommand}"/>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center"  IsVisible="{Binding EditCourseVisible}">
+                <Button Text="Edit Course Details" Command="{Binding UpdateNewCourseCommand}"/>
+            </StackLayout>
+            <!--#endregion-->
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

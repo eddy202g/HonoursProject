@@ -1,0 +1,16 @@
+[
+
+  {
+    "LearnerID": 0,
+    "Nickname": "One",
+    "Username": "One",
+    "Password": "One"
+  },
+
+  {
+    "LearnerID": 1,
+    "Nickname": "Two",
+    "Username": "One",
+    "Password": "One"
+  }
+]

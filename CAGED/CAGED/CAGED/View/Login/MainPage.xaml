@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CAGED"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="CAGED.View.Login.MainPage"
+             NavigationPage.HasBackButton="False">
+
+
+    <StackLayout VerticalOptions="Center"
+
+                 Margin="20,0">
+        <Image Source="logo.png"/>
+        <Entry x:Name="emailEntry"
+               Placeholder="Email Address"
+               Margin="0,50,0,0"
+               Text="{Binding Email}"
+               Keyboard="Email"/>
+        <Entry x:Name="passwordEntry"
+               Placeholder="Password"
+               Text="{Binding Password}"
+               IsPassword="True"/>
+        <Button x:Name="LoginButton"
+                Margin="0,50, 0,0"    
+                CornerRadius="30"
+                BackgroundColor="Black"
+                Text="{Binding LoginButtonText}" TextColor="White"               
+                Command="{Binding LoginButtonCommand}"
+        Style="{StaticResource normalButton}"/>
+        <!--<Button x:Name="BypassButton"
+                Margin="0,30, 0,0"                 
+                TextColor="White"  
+                CornerRadius="30"
+                Text="{Binding BypassButtonText}"
+                Command="{Binding BypassButtonCommand}"
+                Style="{StaticResource normalButton}"/>-->
+        
+        <!--<BoxView Color="LightGray" HeightRequest="2" HorizontalOptions="Fill" Margin="6,20,6,20"/>-->
+
+        <Button x:Name="SfButton" 
+                Text="{Binding RegBtnText}" 
+                Margin="0,20, 0,0" 
+                BorderColor="Black"
+                BorderWidth="2"
+                BackgroundColor="White"
+                CornerRadius="30"
+                Command="{Binding RegBtnCommand}"/>
+
+       
+
+    </StackLayout>
+
+</ContentPage>

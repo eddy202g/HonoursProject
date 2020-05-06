@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="CAGED.View.IntroCourse.IntroAssessment"
+             NavigationPage.HasBackButton="False"
+             Title="        Assessment">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Submit"
+                     Command="{Binding SubmitBtnCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ScrollView>
+        <StackLayout>
+            <Frame BorderColor="Orange"
+                           BackgroundColor="GhostWhite"
+                            CornerRadius="10"
+                            HasShadow="True"
+                           HeightRequest="300"
+                           Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.ColumnSpan="2"  Text="QUESTION 1: " FontSize="Large" TextColor="Black" />
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Which 5 shapes represent the CAGED system? " FontSize="Medium" TextColor="Black"/>
+
+                    <syncfusion:SfRadioGroup Grid.Row="2" Grid.ColumnSpan="2">
+                        <syncfusion:SfRadioButton Text="C,A,G,E,D" IsChecked="{Binding QoneIsChecked}"/>
+                        <syncfusion:SfRadioButton Text="B,D,E,F,G" IsChecked="{Binding QoneIsCheckedTwo}"/>
+                        <syncfusion:SfRadioButton Text="B,G,F,E,C" IsChecked="{Binding QoneIsCheckedThree}"/>
+                    </syncfusion:SfRadioGroup>
+
+                    <Button Text="Submit Answer"  Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource proceedBtn}" IsVisible="True" IsEnabled="{Binding EnableSubmitBtn}" Command="{Binding ProceedBtnCommand}"/>
+
+                </Grid>
+            </Frame>
+
+            <Frame BorderColor="Green"
+                           BackgroundColor="GhostWhite"
+                            CornerRadius="10"
+                            HasShadow="True"
+                           HeightRequest="300"
+                           Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    
+                    <Label Grid.Row="0" Grid.ColumnSpan="2"  Text="QUESTION 2: " FontSize="Large" TextColor="Black" />
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Which 5 chord shapes represent the CAGED system? " FontSize="Medium" TextColor="Black"/>
+
+                    <syncfusion:SfRadioGroup Grid.Row="2" Grid.ColumnSpan="2">
+                        <syncfusion:SfRadioButton Text="B,G,F,E,C" IsChecked="{Binding QTwoIsChecked}"/>
+                        <syncfusion:SfRadioButton Text="B,D,E,F,G" IsChecked="{Binding QTwoIsCheckedTwo}"/>
+                        <syncfusion:SfRadioButton Text="C,A,G,E,D" IsChecked="{Binding QTwoIsCheckedThree}"/>
+                    </syncfusion:SfRadioGroup>
+
+                    <Button Text="Submit Answer" Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource proceedBtn}" IsVisible="True" IsEnabled="{Binding EnableSubmitBtnTwo}"  Command="{Binding ProceedTwoBtnCommand}"/>
+
+                </Grid>
+            </Frame>
+
+            <Frame BorderColor="BlueViolet"
+                           BackgroundColor="GhostWhite"
+                            CornerRadius="10"
+                            HasShadow="True"
+                           HeightRequest="300"
+                           Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.ColumnSpan="2"  Text="QUESTION 3: " FontSize="Large" TextColor="Black" />
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Which 5 chord shapes represent the CAGED system?? " FontSize="Medium" TextColor="Black"/>
+
+                    <syncfusion:SfRadioGroup Grid.Row="2" Grid.ColumnSpan="2">
+                        <syncfusion:SfRadioButton  Text="B,D,E,F,G" IsChecked="{Binding QThreeIsChecked}"/>
+                        <syncfusion:SfRadioButton  Text="C,A,G,E,D" IsChecked="{Binding QThreeIsCheckedTwo}"/>
+                        <syncfusion:SfRadioButton Text="B,G,F,E,C" IsChecked="{Binding QThreeIsCheckedThree}"/>
+                    </syncfusion:SfRadioGroup>
+
+                    <Button Text="Submit Answer"  Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource proceedBtn}" IsVisible="True" IsEnabled="{Binding EnableSubmitBtnThree}" Command="{Binding ProceedThreeBtnCommand}"/>
+
+                </Grid>
+            </Frame>
+
+            <Frame BorderColor="Red"
+                           BackgroundColor="GhostWhite"
+                            CornerRadius="10"
+                            HasShadow="True"
+                           HeightRequest="300"
+                            Margin="5">
+                <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="100" />
+                    <RowDefinition Height="100" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.ColumnSpan="2"  Text="QUESTION 4: " FontSize="Large" TextColor="Black" />
+                <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Which 5 chord shapes represent the CAGED system?? " FontSize="Medium" TextColor="Black"/>
+
+                <syncfusion:SfRadioGroup Grid.Row="2" Grid.ColumnSpan="2">
+                        <syncfusion:SfRadioButton Text="C,A,G,E,D" IsChecked="{Binding QFourIsChecked}"/>
+                        <syncfusion:SfRadioButton Text="B,D,E,F,G" IsChecked="{Binding QFourIsCheckedTwo}"/>
+                        <syncfusion:SfRadioButton Text="B,G,F,E,C" IsChecked="{Binding QFourIsCheckedThree}"/>
+                </syncfusion:SfRadioGroup>
+
+                    <Button Text="Submit Answer"  Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource proceedBtn}" IsVisible="True" IsEnabled="{Binding EnableSubmitBtnFour}" Command="{Binding ProceedFourBtnCommand}"/>
+
+                </Grid>
+            </Frame>
+
+            <Frame BorderColor="Black"
+                           BackgroundColor="GhostWhite"
+                            CornerRadius="10"
+                            HasShadow="True"
+                           HeightRequest="300"
+                           Margin="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30" />
+                        <RowDefinition Height="50" />
+                        <RowDefinition Height="100" />
+                        <RowDefinition Height="100" />
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Row="0" Grid.ColumnSpan="2"  Text="QUESTION 5: " FontSize="Large" TextColor="Black" />
+                    <Label Grid.Row="1" Grid.ColumnSpan="2" Text="Which 5 chord shapes represent the CAGED system?? " FontSize="Medium" TextColor="Black"/>
+
+                    <syncfusion:SfRadioGroup Grid.Row="2" Grid.ColumnSpan="2">
+                        <syncfusion:SfRadioButton Text="B,D,E,F,G" IsChecked="{Binding QFiveIsChecked}"/>
+                        <syncfusion:SfRadioButton Text="C,A,G,E,D" IsChecked="{Binding QFiveIsCheckedTwo}"/>
+                        <syncfusion:SfRadioButton Text="B,G,F,E,C" IsChecked="{Binding QFiveIsCheckedThree}"/>
+                    </syncfusion:SfRadioGroup>
+
+                    <Button Text="Submit Answer"  Grid.Row="3" Grid.ColumnSpan="2" Style="{StaticResource proceedBtn}" IsVisible="True" IsEnabled="{Binding EnableSubmitBtnFive}" Command="{Binding ProceedFiveBtnCommand}"/>
+
+                </Grid>
+
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

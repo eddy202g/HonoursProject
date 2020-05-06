@@ -1,0 +1,288 @@
+[
+  // INTRO
+  {
+    "courseID": 0,
+    "pageID": 0,
+    "lessonID": 0,
+    "paraOne": "To become a competent guitar player, a working knowledge of the guitars fretboard is necessary. This is a daunting task for most when they consider the wealth of chords and scales they will have to memorise",
+    "paraTwo": "Thankfully, the process can be simplified by way of the CAGED system; a process that helps to visualise the fretboard in a ",
+    "extraSentence": " and structured way"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 0,
+    "pageID": 1,
+    "paraOne": "The concept is very simple - the fretboard can be visualised with the use of 5 chord shapes - C, A, G, E, D. Get to know these shapes, and the fretboard will be unlocked for you!",
+    "paraTwo": "Let's test your existing knowledge - Hit the button below to take a simple test "
+  },
+  {
+    "courseID": 0,
+    "lessonID": 0,
+    "pageID": 2,
+    "paraOne": "Look at the Chords below; Select the answer giving the correct Chord names \n\nIf you don't know the answer, dont worry - Have a go anyway",
+    "findImage": "CAD.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 0,
+    "pageID": 3,
+    "paraOne": "If you passed the test, great! If not, don't worry, you will learn how to recognise the chord shapes in this course!",
+    "paraTwo": "Hit the button below to complete the introduction "
+  },
+  /////// LESSON ONE
+  { /////// STANDARD TEXT PAGE
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 0,
+    "paraOne": "As mentioned previously, the CAGED system is based around the five Chord shapes that make up the name. For the next few lessons, we will get to know all of these shapes",
+    "paraTwo": "The shapes we will study are only that; they do not refer to actual chords, only their shapes"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 1,
+    "paraOne": "The C Chord is made up from three notes - C, E, G. If we look at the notes that make up the C Major scale, 'CDEFGABC', the notes are the 1st, 3rd and 5th notes of the scale",
+    "paraTwo": "The root note, i.e. the first letter, is important here, as its position dictates the CAGED shape being used"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 2,
+    "paraOne": "The picture below shows the first position of the C Major scale - see if you can pick out the C shape by naming the string and fret numbers",
+    "findImage": "formGame.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 3,
+    "paraOne": "The picture below shows the C chord, in the shape of C. It also shows the C shape moved up a half step, showing the shape can be moved to any key, in this case the key of C#. \n\nTake notice the two C notes - they make up the shape of C ",
+    "findImage": "FORMS.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 4,
+    "paraOne": "LETS REVIEW - The caged system comprises 5 shapes; The first shape is C. The shape can be moved into any key",
+    "paraTwo": "Its very easy to tell which key we are moving into by the position \nof the ",
+    "extraSentence": " which also shows us which shape of the CAGED system we are using"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 5,
+    "paraOne": "Using this logic, we can use the C shape to visualise a scale on the fretboard!",
+    "paraTwo": "Lets play a game - hit the button below to play "
+  },
+  {
+    "courseID": 0,
+    "lessonID": 1,
+    "pageID": 6,
+    "paraOne": "You are doing great! So far you have learned to visualise the C shape, how you can move that shape into any key, and how a scale position fits around the shape!",
+    "paraTwo": "Lets move on and cover the next topic - the A shape "
+  },
+  /////// LESSON TWO
+  { /////// STANDARD TEXT PAGE
+    "courseID": 0,
+    "lessonID": 2,
+    "pageID": 0,
+    "paraOne": "It's important to remember at this point that there is a difference between 'shape' and 'chord' - the shape contains only the root note, and tells us which position to play a chord in",
+    "paraTwo": "This can be a little confusing at first, but just remember that for the remainder of this course we will only be using the C chord"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 2,
+    "pageID": 1,
+    "paraOne": "Previously we learned how we can play a C chord in the shape of C and how we can use that shape to visualise a scale position",
+    "paraTwo": "This lesson will show how to play the A shape of C"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 2, // Modal page
+    "pageID": 2,
+    "paraOne": "The picture below shows the second position of the C Major scale - see if you can pick out the A shape by naming the string and fret numbers",
+    "findImage": "formAGame.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 2,
+    "pageID": 3,
+    "paraOne": "The picture below shows the C chord in the shape of A. The root notes are still C. It also shows the A shape moved up a half step to show the 'barred' A shape. \n\nFormally, we can say this is a C chord in the shape of A",
+    "findImage": "formsA.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 2,
+    "pageID": 4,
+    "paraOne": "LETS REVIEW - The C chord can be played in different positions, in this case, the 'A' position ",
+    "paraTwo": "Using this knowledge, if someone were to say 'Play a C chord in the ",
+    "extraSentence": " of A' you should know exactly where to play the chord"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 2,
+    "pageID": 5,
+    "paraOne": "Using this logic, we can use the A shape to visualise another scale shape on the fretboard!",
+    "paraTwo": "Lets play a game - hit the button below to play "
+  },
+  {
+    "courseID": 0,
+    "lessonID": 2,
+    "pageID": 6,
+    "paraOne": "You are doing great! So far you have learned to visualise the C and A shapes, how you can move those shapes into any key, and how a scale position fits around the shapes!",
+    "paraTwo": "Lets move on and cover the next topic - the G shape "
+  },
+  /////// LESSON THREE
+  { /////// STANDARD TEXT PAGE
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 0,
+    "paraOne": "As mentioned previously, the CAGED system is based around the five Chord shapes that make up the name. For the next few lessons, we will get to know all of these shapes",
+    "paraTwo": "The shapes we will study are only that; they do not refer to actual chords, only their shapes"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 1,
+    "paraOne": "The C Chord is made up from three notes - C, E, G. If we look at the notes that make up the C Major scale, 'CDEFGABC', the notes are the 1st, 3rd and 5th notes of the scale",
+    "paraTwo": "The root note, i.e. the first letter, is important here, as its position dictates the CAGED shape being used"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 2,
+    "paraOne": "The picture below shows the first position of the C Major scale - see if you can pick out the C shape by naming the string and fret numbers",
+    "findImage": "formGame.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 3,
+    "paraOne": "The picture below shows the C shape, in the key of C. It also shows the C shape moved up a half step, showing the shape can be moved to any key, in this case the key of C#. \n\nTake notice the two C notes - they make up the shape of C ",
+    "findImage": "FORMS.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 4,
+    "paraOne": "LETS REVIEW - The caged system comprises 5 shapes; The first shape is C. The shape can be moved into any key",
+    "paraTwo": "Its very easy to tell which key we are moving into by the position \nof the ",
+    "extraSentence": " which also shows us which shape of the CAGED system we are using"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 5,
+    "paraOne": "Using this logic, we can use the C shape to visualise a scale shape on the fretboard!",
+    "paraTwo": "Lets play a game - hit the button below to play "
+  },
+  {
+    "courseID": 0,
+    "lessonID": 3,
+    "pageID": 6,
+    "paraOne": "You are doing great! So far you have learned to visualise the C shape, how you can move that shape into any key, and how a scale position fits around the shape!",
+    "paraTwo": "Lets move on and cover the next topic - the A shape "
+  },
+  /////// LESSON FOUR
+  { /////// STANDARD TEXT PAGE
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 0,
+    "paraOne": "As mentioned previously, the CAGED system is based around the five Chord shapes that make up the name. For the next few lessons, we will get to know all of these shapes",
+    "paraTwo": "The shapes we will study are only that; they do not refer to actual chords, only their shapes"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 1,
+    "paraOne": "The C Chord is made up from three notes - C, E, G. If we look at the notes that make up the C Major scale, 'CDEFGABC', the notes are the 1st, 3rd and 5th notes of the scale",
+    "paraTwo": "The root note, i.e. the first letter, is important here, as its position dictates the CAGED shape being used"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 2,
+    "paraOne": "The picture below shows the first position of the C Major scale - see if you can pick out the C shape by naming the string and fret numbers",
+    "findImage": "formGame.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 3,
+    "paraOne": "The picture below shows the C shape, in the key of C. It also shows the C shape moved up a half step, showing the shape can be moved to any key, in this case the key of C#. \n\nTake notice the two C notes - they make up the shape of C ",
+    "findImage": "FORMS.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 4,
+    "paraOne": "LETS REVIEW - The caged system comprises 5 shapes; The first shape is C. The shape can be moved into any key",
+    "paraTwo": "Its very easy to tell which key we are moving into by the position \nof the ",
+    "extraSentence": " which also shows us which shape of the CAGED system we are using"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 5,
+    "paraOne": "Using this logic, we can use the C shape to visualise a scale shape on the fretboard!",
+    "paraTwo": "Lets play a game - hit the button below to play "
+  },
+  {
+    "courseID": 0,
+    "lessonID": 4,
+    "pageID": 6,
+    "paraOne": "You are doing great! So far you have learned to visualise the C shape, how you can move that shape into any key, and how a scale position fits around the shape!",
+    "paraTwo": "Lets move on and cover the next topic - the A shape "
+  },
+  /////// LESSON FIVE
+  { /////// STANDARD TEXT PAGE
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 0,
+    "paraOne": "As mentioned previously, the CAGED system is based around the five Chord shapes that make up the name. For the next few lessons, we will get to know all of these shapes",
+    "paraTwo": "The shapes we will study are only that; they do not refer to actual chords, only their shapes"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 1,
+    "paraOne": "The C Chord is made up from three notes - C, E, G. If we look at the notes that make up the C Major scale, 'CDEFGABC', the notes are the 1st, 3rd and 5th notes of the scale",
+    "paraTwo": "The root note, i.e. the first letter, is important here, as its position dictates the CAGED shape being used"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 2,
+    "paraOne": "The picture below shows the first position of the C Major scale - see if you can pick out the C shape by naming the string and fret numbers",
+    "findImage": "formGame.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 3,
+    "paraOne": "The picture below shows the C shape, in the key of C. It also shows the C shape moved up a half step, showing the shape can be moved to any key, in this case the key of C#. \n\nTake notice the two C notes - they make up the shape of C ",
+    "findImage": "FORMS.png"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 4,
+    "paraOne": "LETS REVIEW - The caged system comprises 5 shapes; The first shape is C. The shape can be moved into any key",
+    "paraTwo": "Its very easy to tell which key we are moving into by the position \nof the ",
+    "extraSentence": " which also shows us which shape of the CAGED system we are using"
+  },
+  {
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 5,
+    "paraOne": "Using this logic, we can use the C shape to visualise a scale shape on the fretboard!",
+    "paraTwo": "Lets play a game - hit the button below to play "
+  },
+  {
+    "courseID": 0,
+    "lessonID": 5,
+    "pageID": 6,
+    "paraOne": "You are doing great! So far you have learned to visualise the C shape, how you can move that shape into any key, and how a scale position fits around the shape!",
+    "paraTwo": "Lets move on and cover the next topic - the A shape "
+  }
+
+]

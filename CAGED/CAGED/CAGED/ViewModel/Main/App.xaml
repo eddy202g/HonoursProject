@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CAGED.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="blueColor">#1E90FF</Color>
+            <Color x:Key="whiteColor">#FFFFFF</Color>
+
+            <Style x:Key="normalButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource blueColor}"/>
+                <Setter Property="BorderRadius" Value="{StaticResource whiteColor}"/>
+            </Style>
+
+            <Style x:Key="standardTxt" TargetType="Span">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
+
+            <Style x:Key="divider" TargetType="BoxView">
+                <Setter Property="Color" Value="LightGray"/>
+                <Setter Property="Grid.Row" Value="1"/>
+                <Setter Property="Grid.ColumnSpan" Value="2"/>
+                <Setter Property="HeightRequest" Value="2"/>
+                <Setter Property="HorizontalOptions" Value="Fill"/>
+                <Setter Property="Margin" Value="40,10,40,10"/>
+            </Style>
+
+            
+            <Style x:Key="boldTxt" TargetType="Span">
+                <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="pBar" TargetType="ProgressBar">
+                <Setter Property="ProgressColor" Value="OrangeRed"/>
+                <Setter Property="Margin" Value="25,0,25,10"/>
+                <Setter Property="Grid.Row" Value="0"/>
+                <Setter Property="Grid.ColumnSpan" Value="2"/>
+            </Style>
+
+            <Style x:Key="answerBtn" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="GhostWhite"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderRadius" Value="10"/>
+                <Setter Property="BorderWidth" Value="3"/>
+                <Setter Property="Margin" Value="25,60,25,0"/>
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="Grid.Row" Value="4"/>
+                <Setter Property="Grid.Column" Value="0"/>
+            </Style>
+
+            <Style x:Key="dragAnsBtn" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="GhostWhite"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderRadius" Value="10"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="Margin" Value="25,40,25,10"/>
+                <Setter Property="BorderColor" Value="Black"/>
+
+            </Style>
+
+            <Style x:Key="proceedBtn" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Orange"/>
+                <Setter Property="TextColor" Value="Black"/>
+                <Setter Property="BorderRadius" Value="10"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="Margin" Value="25,60,25,0"/>
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="IsVisible" Value="False"/>
+                <Setter Property="Grid.Row" Value="3"/>
+                <Setter Property="Grid.ColumnSpan" Value="2"/>
+            </Style>
+
+            <Style x:Key="headerLbl" TargetType="Label">
+                <Setter Property="Margin" Value="25,0,25,0"/>
+                <Setter Property="LineBreakMode" Value="WordWrap"/>
+                <Setter Property="HorizontalTextAlignment" Value="Start"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+            </Style>
+        </ResourceDictionary>
+        <ResourceDictionary>
+            <Style x:Key="stlContactBtn" TargetType="Button">
+                <Setter Property="TranslationY"     Value="-50"/>
+                <Setter Property="TranslationX"     Value="45"/>
+                <Setter Property="BackgroundColor"  Value="#2193f3"/>
+                <Setter Property="WidthRequest"     Value="56"/>
+                <Setter Property="HeightRequest"    Value="56"/>
+                <Setter Property="CornerRadius"     Value="28"/>
+            </Style>
+
+            <Style x:Key="stlBoardTitle" TargetType="Label">
+                <Setter Property="Padding"           Value="0,5,0,10"/>
+                <Setter Property="TextColor"         Value="Black"/>
+                <Setter Property="FontSize"          Value="16"/>
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="FontAttributes"    Value="Bold"/>
+            </Style>
+
+            <Style x:Key="stlBoardDesc" TargetType="Label">
+                <Setter Property="Padding"           Value="0,5,0,10"/>
+                <Setter Property="FontSize"          Value="16" />
+                <Setter Property="HorizontalOptions" Value="Start"/>
+            </Style>
+
+            <Style x:Key="stlMainFrame" TargetType="Frame">
+                <Setter Property="HeightRequest"   Value="300"/>
+                <Setter Property="HasShadow"       Value="True" />
+                <Setter Property="Margin"       Value="5,5,5,5"/>
+                <Setter Property="BorderColor"  Value="DarkSeaGreen" />
+            </Style>
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

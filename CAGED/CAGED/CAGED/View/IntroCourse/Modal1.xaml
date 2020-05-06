@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr- namespace:Syncfusion.SfPicker.XForms;assembly=Syncfusion.SfPicker.XForms"
+             x:Class="CAGED.Modal1">
+    <ContentPage.Content >
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Margin="10 ">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.ColumnSpan="3"  LineBreakMode="WordWrap" HorizontalTextAlignment="Start" VerticalTextAlignment="Center" Margin="15, 0, 15, 20 ">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Style="{StaticResource standardTxt}" Text="{Binding IntroParaOne}"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <BoxView Grid.Row="1" Grid.ColumnSpan="3" BackgroundColor="LightGray" HeightRequest="2" HorizontalOptions="Fill" Margin="40,15,40,20"/>
+
+                <Image Source="{Binding SetImageOne}" Grid.Row="2" Grid.ColumnSpan="3" HeightRequest="200"/>
+
+                <Picker Grid.Row="3" ItemsSource="{Binding Chords}" SelectedItem="{Binding SelectedChordOne}" Grid.ColumnSpan="3" Title="Select A Chord" Margin="0,10,0,0"/>
+                <Button  Grid.Row="4" Grid.ColumnSpan="3" Text="{Binding SubmitBtnText}" Style="{StaticResource answerBtn}" IsVisible="{Binding SubmitBtnVisible}" Command="{Binding SubmitBtnCommand}"/>
+                <Button  Grid.Row="4" Grid.ColumnSpan="3" Text="{Binding ProceedBtnText}" Style="{StaticResource proceedBtn}" IsVisible="{Binding ProceedBtnVisible}" Command="{Binding ProceedBtnCommand}"/>
+            </Grid>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

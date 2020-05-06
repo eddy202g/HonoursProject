@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sfPopup="clr-namespace:Syncfusion.XForms.PopupLayout;assembly=Syncfusion.SfPopupLayout.XForms"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+             x:Class="CAGED.AchievementsPage">
+    <StackLayout>
+        <StackLayout x:Name="adminStack"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     IsVisible="false">
+            <ListView x:Name="postListView"
+                      ItemSelected="PostListView_ItemSelected">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding CourseID}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="Delete" Text="Delete Course" Clicked="Delete_Clicked"/>
+        </StackLayout>
+
+        <StackLayout x:Name="userStack" 
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     IsVisible="false">
+            <Label Text="FUNCTION COMING SOON!" FontSize="Large"/>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

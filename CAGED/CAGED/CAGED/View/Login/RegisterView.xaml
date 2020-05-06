@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             x:Class="CAGED.View.Login.RegisterView">
+    
+    <StackLayout VerticalOptions="Center"
+                 Margin="20,0">
+        <Entry x:Name="nicknameEntry"
+               Placeholder="Enter Nickname"
+               Text="{Binding RegisterNickname}"/>
+        <Entry x:Name="userEntry"
+               Placeholder="Enter Username"
+               Text="{Binding RegisterUsername}"
+               Keyboard="Email"/>
+        <Entry x:Name="passwordEntry"
+               Placeholder="Enter Password"
+               Text="{Binding RegisterPassword}"
+               IsPassword="True"/>
+        <syncfusion:SfCheckBox x:Name="checkBox" IsChecked="{Binding IsSelected}" Text="Admin Page?" />
+        <Button x:Name="RegisterButton"
+                Margin="0,50, 0,0"                 
+                Text="{Binding RegisterButtonText}" 
+                TextColor="White"               
+                Command="{Binding RegisterButtonCommand}"
+                Style="{StaticResource normalButton}"/>
+        
+
+       
+
+        
+
+    </StackLayout>
+</ContentPage>
